@@ -23,7 +23,7 @@ function App() {
       background = "bg-[url('/images/bg1.jpg')]";
       break;
     case "04d":
-      background = "bg-[url('/images/bg3.jpg')]";
+      background = "bg-[url('/images/bg13.jpg')]";
       break;
     case "09d":
       background = "bg-[url('/images/bg5.jpg')]";

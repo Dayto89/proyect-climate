@@ -16,7 +16,7 @@ const Weather = ({ weather, temp }) => {
       </h2>
 
       <section className="grid gap-4 sm:grid-cols-two">
-        <article className="bg-slate-300/25 rounded-3xl grid grid-cols-2 justify-items-center items-center py-2 px-0 ">
+        <article className="bg-slate-300/70 rounded-3xl grid grid-cols-2 justify-items-center items-center py-2 px-0 ">
           <h3 className="capitalize col-start-1 col-end-3">{weather.weather[0].description}</h3>
 
           <h2 className="text-[45px] font-light sm:text-6xl">{isCelsius ? `${temp.celsius} °C` : `${temp.fahrenheit} °F`} </h2>
@@ -28,7 +28,7 @@ const Weather = ({ weather, temp }) => {
           </div>
         </article>
 
-        <article className="bg-slate-300/50 rounded-3xl grid grid-cols-3 justify-center justify-items-stretch py-2 sm:grid-cols-1 sm:px-2 sm:py-0">
+        <article className="bg-slate-300/70 rounded-3xl grid grid-cols-3 justify-center justify-items-stretch py-2 sm:grid-cols-1 sm:px-2 sm:py-0">
           <div className="flex gap-2 text-sm justify-center items-center">
             <div className="">
               <img src="/images/wind.png" alt="" />
@@ -54,7 +54,7 @@ const Weather = ({ weather, temp }) => {
 
       <button
         onClick={changeUnitTemp}
-        className="bg-slate-300/50 py-2 px-6 text-white font-bold rounded-full hover:bg-blue-800 duration-200 text-sm block mx-auto mt-4"
+        className="bg-slate-300/70 py-2 px-6 text-black font-bold rounded-full hover:bg-blue-800 duration-200 text-sm block mx-auto mt-4"
       >
         Chance C°/F°
       </button>
